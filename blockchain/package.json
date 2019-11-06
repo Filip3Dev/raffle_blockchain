@@ -1,0 +1,21 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "Smart Raffle",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {
+    "solium": "^1.0.0"
+  },
+  "scripts": {
+    "lint": "solium --dir contracts"
+  },
+  "author": "Filipe Machado",
+  "license": "MIT"
+}
